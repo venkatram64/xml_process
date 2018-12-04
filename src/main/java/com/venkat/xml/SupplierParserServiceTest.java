@@ -8,20 +8,28 @@ import java.util.List;
 
 public class SupplierParserServiceTest {
 
+   // C:\Venkatram\nifi_work\xml_reader\target>java -jar xml_reader-1.0-SNAPSHOT-jar-with-dependencies.jar com.venkat.xml.SupplierParserServiceTest c:\Venkatram\nifi_work\xml_reader\test.xml C:\Venkatram\out.csv
+
     public static void main(String[] args) {
         /*if(args.length < 3){
             System.out.println("Give <input: xml file> and <output: csv file> ");
             return;
         }*/
 
-        String inputFile = "test.xml";//args[1];
+        String inputFile = args[1];
+        System.out.println("XML file :" + inputFile);
+        String outFile = args[2];
+        System.out.println("CSV file :" + outFile);
+        exportToCSV(inputFile, outFile);
+
+       /* String inputFile = "test.xml";//args[1];
         System.out.println("XML file :" + inputFile);
 
         String outFile = "out.csv";//args[2];
         System.out.println("CSV file :" + outFile);
 
         exportToCSV(inputFile, outFile);
-        exportToJson(inputFile, "out.json");
+        exportToJson(inputFile, "out.json");*/
     }
 
     public static void exportToJson(String inputFile, String outFile){

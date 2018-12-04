@@ -30,7 +30,7 @@
                     <manifest>
                         <addClasspath>true</addClasspath>
                         <classpathPrefix>lib/</classpathPrefix>
-                        <mainClass>com.venkat.ParserTest</mainClass>
+                        <mainClass>com.venkat.xml.SupplierParserServiceTest</mainClass>
                     </manifest>
                 </archive>
             </configuration>
@@ -40,7 +40,8 @@
                     <phase>package</phase>
                     <!-- bind to the packaging phase -->
                     <goals> <goal>single</goal> </goals>
-                </execution> </executions>
+                </execution>
+            </executions>
         </plugin>
     </plugins>
     </build>
