@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<parent_company>
+    <source>
+        <suppliers>
+            <id>123</id>
+            <status>pending</status>
+            <type>conf</type>
+            <desc>general conf</desc>
+            <industry>tech</industry>
+            <created>7/25/2018</created>
+            <updated>8/12/2009</updated>
+            <child_companies>
+                <comapny>
+                    <nature_of_work>management</nature_of_work>
+                    <company_name>sagarsoft</company_name>
+                    <company_status>na</company_status>
+                    <created>7/25/2018</created>
+                    <updated>8/12/2009</updated>
+                </comapny>
+                <comapny>
+                    <name>management</name>
+                    <company_name>sagarsoft</company_name>
+                    <company_status>na</company_status>
+                    <created>3/15/2018</created>
+                    <updated>7/08/2009</updated>
+                </comapny>
+            </child_companies>
+        </suppliers>
+        <suppliers>
+            <id>1234</id>
+            <status>success</status>
+            <type>conf</type>
+            <desc>general conf</desc>
+            <industry>tech</industry>
+            <created>2/05/2018</created>
+            <updated>5/12/2001</updated>
+            <child_companies>
+
+            </child_companies>
+        </suppliers>
+    </source>
+</parent_company>
