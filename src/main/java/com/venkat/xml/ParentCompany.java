@@ -111,4 +111,23 @@ public class ParentCompany {
     public void setIndustry(String industry) {
         this.industry = industry;
     }
+
+    public static ParentCompany deepCopy(ParentCompany pc){
+        ParentCompany parentCompany = new ParentCompany();
+
+        parentCompany.setId(pc.getId());
+        parentCompany.setStatus(pc.getStatus());
+        parentCompany.setType(pc.getType());
+        parentCompany.setDesc(pc.getDesc());
+        parentCompany.setIndustry(pc.getIndustry());
+        parentCompany.setCreated(pc.getCreated());
+        parentCompany.setUpdated(pc.getUpdated());
+        parentCompany.setNatureOfWork(pc.getNatureOfWork());
+        parentCompany.setCompanyName(pc.getCompanyName());
+        parentCompany.setCompanyStatus(pc.getCompanyStatus());
+        parentCompany.setCreated2(pc.getCreated2());
+        parentCompany.setUpdated2(pc.getUpdated2());
+
+        return parentCompany;
+    }
 }
